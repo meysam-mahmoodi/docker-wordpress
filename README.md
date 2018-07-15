@@ -13,5 +13,4 @@ Docker container with php 7.1 on Apache (httpd). Based on an docker-compose.yml 
 2. navigate to it `cd docker-wordpress`
 3. Build docker image: `docker-compose build`
 4. Run it: `docker run -d --name wordpress -p 80:80 docker-wordpress_php7`
-5. Open `http://localhost/public` or `http://your-server-ip-adress/public`
 
